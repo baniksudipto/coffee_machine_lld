@@ -1,7 +1,7 @@
 import random
 from threading import Thread
 
-import json_reader
+from utils import json_reader
 import utils.logger as logger
 from entities.machine import BeverageMachine
 from entities.maker import BeverageMaker
